@@ -105,6 +105,7 @@ q {
   width: 100%;
   height: 50px;
   margin-bottom: 10px;
+  position:relative;
 }
 
 .logo{
@@ -116,6 +117,11 @@ q {
 .progress{
   height: 12px;
   width: 250px;
+}
+
+.openButton{
+  position: absolute;
+  right: 50px;
 }
 
 /* SKILL PAGE */
@@ -182,5 +188,9 @@ q {
     overflow-x: auto;
     white-space: nowrap;
     flex-wrap: nowrap;
+  }
+
+  .openButton{
+    right: 10px;
   }
 }
